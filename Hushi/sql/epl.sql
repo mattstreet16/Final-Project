@@ -1,0 +1,48 @@
+Create Table EPL (
+    Unnamed VARCHAR (20),
+	Div varchar(20),
+    Date varchar(20),
+    Home_Team VARCHAR(50) NOT NULL,
+    Away_Team VARCHAR(50) NOT NULL,
+    FTHG VARCHAR(50),
+    FTAG VARCHAR(50),
+    FTR VARCHAR(50),
+    HTHG VARCHAR(50),
+    HTAG VARCHAR(50),
+    HTR VARCHAR(50),
+    Referee VARCHAR(50),
+    HS VARCHAR(50),
+    A_S VARCHAR(50),
+    HST VARCHAR(50),
+    AST VARCHAR(50),
+    HF VARCHAR(50),
+    AF VARCHAR(50),
+    HC VARCHAR(50),
+    AC VARCHAR(50),
+    HY VARCHAR(50),
+    AY VARCHAR(50),
+    HR VARCHAR(50),
+    AR VARCHAR(50),
+    B365H VARCHAR(50),
+    B365D VARCHAR(50),
+    B365A VARCHAR(50),
+    VCH VARCHAR(50),
+    VCD VARCHAR(50),
+    VCA VARCHAR(50)
+);
+
+SELECT * FROM epl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
