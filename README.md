@@ -114,7 +114,7 @@ For this model, we are testing the results of home teams. Note that this is a mu
 
 ### Description of Database:
 
-The team has picked SQL through pgadmin as the main way to access our created database because Pgadmin is easily accessible and all members have experience using it.
+The team has picked SQL through Pgadmin 4 as the main way to access our created database because Pgadmin is easily accessible and all members have experience using it.
 The database the team created will contain the tables of premier league data and will be connected to the machine learning model.
 
 ![sql](https://user-images.githubusercontent.com/99688417/179432303-fd1a9ef2-40fd-4f07-936b-43876da1e5d3.png)
