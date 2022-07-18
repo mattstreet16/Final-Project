@@ -49,7 +49,7 @@ Our team created a central location for sharing code, resources, data, etc. Team
 
 
 ### ML model: (Draft)
-For this model, we are testing the results of home teams. Note that this is a multiclass issue because the results can be win loss or draw. Firstly we have to explore and prepare the data
+For this model, we are testing the results of home teams. Note that this is a multiclass issue because the results can be win loss or draw. Firstly we have to explore and prepare the data.
 
 #### Data exploration and feature selection 
 
