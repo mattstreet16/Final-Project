@@ -1,7 +1,6 @@
-
 CREATE TABLE Stats (
 	ID int NOT NULL,
-	Div CHAR(2),
+	Div CHAR(10),
 	Date DATE,
 	HomeTeam CHAR(16),
 	AwayTeam CHAR(16),
@@ -24,6 +23,12 @@ CREATE TABLE Stats (
 	AY INT,
 	HR INT,
 	AR INT,
+	PRIMARY KEY (ID)
+);
+
+CREATE Table Betting (
+	ID int NOT NULL,
+	DIV CHAR(10),
 	B365H DECIMAL,
 	B365D DECIMAL,
 	B365A DECIMAL,
@@ -31,9 +36,4 @@ CREATE TABLE Stats (
 	VCD DECIMAL,
 	VCA DECIMAL,
 	PRIMARY KEY (ID)
-	);
-	
-SELECT * FROM public.stats
-ORDER BY id ASC LIMIT 100
-	
-	
+);

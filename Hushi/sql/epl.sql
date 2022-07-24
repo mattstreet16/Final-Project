@@ -1,6 +1,6 @@
 CREATE TABLE Stats (
 	ID int NOT NULL,
-	Div CHAR(10),
+	Div CHAR(2),
 	Date DATE,
 	HomeTeam CHAR(16),
 	AwayTeam CHAR(16),
@@ -37,6 +37,7 @@ CREATE Table Betting (
 	VCA DECIMAL,
 	PRIMARY KEY (ID)
 );
+
 
 
 
