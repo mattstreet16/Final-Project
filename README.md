@@ -247,7 +247,7 @@ Once the data had been reviewed, our team brainstormed and discussed possible qu
 
 After our team discussed the main target question we began to clean and process our data to prepare for testing
 
-	Collecting Data
+Collecting Data
 
     o	Review many sources for Premier League season data to locate the optimal site to scrape 
     o	Review the season data to ensure it is accurate and appropriate for our project
@@ -294,7 +294,7 @@ Elements:
 
 #### Results
 
-	Observations
+Observations
 
     o	Moderately Predicts Outcomes of Premier League matches
 
