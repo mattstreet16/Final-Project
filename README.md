@@ -199,7 +199,17 @@ For this model, we are testing the results of home teams. Note that this is a mu
 
 •	We defined our feature sets by graphing the most important features 
 
-(Pics) 
+Heatmap of feature importance:
+![heatmap](https://user-images.githubusercontent.com/99688417/182051523-e5be07fa-0f58-4b24-9e22-7a07bc090318.png)
+
+
+Decision Tree feature importance graph:
+![DC F importance](https://user-images.githubusercontent.com/99688417/182051547-6848a1ed-55b5-453b-a2ac-042d4b619310.png)
+
+
+Random Forest feature importance graph: 	
+![RF FImportance](https://user-images.githubusercontent.com/99688417/182051567-37b4bab4-3a99-47b6-8bc7-b4981b4a6124.png)
+
 
 •	We then split our processed data into feature and target arrays
 
@@ -219,15 +229,35 @@ For this model, we are testing the results of home teams. Note that this is a mu
 
 •	We believe that our final XGboost model is a solid predictor of Premier League match outcomes
 
+XGBoost Results:
+
+![XgBoost score](https://user-images.githubusercontent.com/99688417/182051415-af2a52bf-500d-4b74-b16e-7686f2258264.png)
+
+
 #### Description of Database: 
 
 The team has picked SQL through pgadmin as the main way to access our created database because Pgadmin is easily accessible, and all members have experience using it.
 
-(explain pics)
 
-(Pic)
 
-(pic)
+EDR:
+
+![erd](https://user-images.githubusercontent.com/99688417/182052037-170548f1-7d88-479e-b5a1-1ff0fd29d4e0.png)
+
+Query:
+
+![epl_query](https://user-images.githubusercontent.com/99688417/182052097-8adf250f-e51a-42ab-82a5-0a2631860648.png)
+
+Betting table:
+![betting_table](https://user-images.githubusercontent.com/99688417/182052049-aef811e7-2c46-4af9-86b8-8564fd8ce8e5.png)
+
+Statistics table:
+![stats_table](https://user-images.githubusercontent.com/99688417/182052051-aad8b364-f47d-453f-885a-713c68c37462.png)
+
+
+
+
+
 
 ### Process: 
 ----------------------------
@@ -283,7 +313,9 @@ The team will be presenting the project via google slides. The presentation will
 
 #### Dashboard: 
 
-(Pic)
+![dashboard](https://user-images.githubusercontent.com/99688417/182052343-864b1377-74f6-4e94-b452-68a8161ef82f.png)
+
+
 Interactive dashboard that allows users to view Premier league data by season
 
 Elements:
