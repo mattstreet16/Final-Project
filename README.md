@@ -197,6 +197,8 @@ For this model, we are testing the results of home teams. Note that this is a mu
     o	A very popular algorithm used to predict sports outcomes 
 #### Training the Machine Learning Model
 
+•	We split the data into training and testing  datasets, the 75/25 ratio that is the standard was used and will allow us tp train the data without overfitting 
+
 •	We defined our feature sets by graphing the most important features 
 
 Heatmap of feature importance:
